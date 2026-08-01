@@ -1,0 +1,4 @@
+Invoking command in '/home/rofida/RPOD_ws/build/mpc_super_visor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/mpc_super_visor -- -j12 -l12
+Invoked command in '/home/rofida/RPOD_ws/build/mpc_super_visor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/mpc_super_visor -- -j12 -l12
+Invoking command in '/home/rofida/RPOD_ws/build/mpc_super_visor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/mpc_super_visor
+Invoked command in '/home/rofida/RPOD_ws/build/mpc_super_visor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/mpc_super_visor

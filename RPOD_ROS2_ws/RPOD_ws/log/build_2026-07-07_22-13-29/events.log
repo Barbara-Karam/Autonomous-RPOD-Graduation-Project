@@ -1,0 +1,525 @@
+[0.000000] (-) TimerEvent: {}
+[0.000992] (-) JobUnselected: {'identifier': 'modelv2_mpc_limited_ros2'}
+[0.001137] (-) JobUnselected: {'identifier': 'motor_uart_pkg'}
+[0.001244] (-) JobUnselected: {'identifier': 'speed_processing'}
+[0.001338] (statespace_chaser_mpc_ros2) JobQueued: {'identifier': 'statespace_chaser_mpc_ros2', 'dependencies': OrderedDict()}
+[0.001433] (statespace_chaser_mpc_ros2) JobStarted: {'identifier': 'statespace_chaser_mpc_ros2'}
+[0.030354] (statespace_chaser_mpc_ros2) JobProgress: {'identifier': 'statespace_chaser_mpc_ros2', 'progress': 'cmake'}
+[0.032486] (statespace_chaser_mpc_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/rofida/RPOD_ws/src/statespace_chaser_mpc_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2'], 'cwd': '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida/RPOD_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1933'), ('SYSTEMD_EXEC_PID', '2384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4397'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:17207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2356,unix/rofida-Precision-7530:/tmp/.ICE-unix/2356'), ('INVOCATION_ID', 'a465180d777043e688459153b71a2017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ae45ddb4-6d81-4371-bbe7-5362ab9d3129'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[0.097138] (-) TimerEvent: {}
+[0.197807] (-) TimerEvent: {}
+[0.298437] (-) TimerEvent: {}
+[0.384910] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.398572] (-) TimerEvent: {}
+[0.499167] (-) TimerEvent: {}
+[0.599813] (-) TimerEvent: {}
+[0.632343] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.672889] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.700000] (-) TimerEvent: {}
+[0.800569] (-) TimerEvent: {}
+[0.901187] (-) TimerEvent: {}
+[0.955144] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.989338] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.991030] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.993252] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.001401] (-) TimerEvent: {}
+[1.008710] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101616] (-) TimerEvent: {}
+[1.202274] (-) TimerEvent: {}
+[1.302898] (-) TimerEvent: {}
+[1.337414] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.372399] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.373667] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.375627] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.395616] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.403079] (-) TimerEvent: {}
+[1.503675] (-) TimerEvent: {}
+[1.604290] (-) TimerEvent: {}
+[1.704902] (-) TimerEvent: {}
+[1.805533] (-) TimerEvent: {}
+[1.906118] (-) TimerEvent: {}
+[2.006774] (-) TimerEvent: {}
+[2.036251] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.106984] (-) TimerEvent: {}
+[2.207619] (-) TimerEvent: {}
+[2.308252] (-) TimerEvent: {}
+[2.320890] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.408440] (-) TimerEvent: {}
+[2.491834] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.508603] (-) TimerEvent: {}
+[2.609260] (-) TimerEvent: {}
+[2.709878] (-) TimerEvent: {}
+[2.734718] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.762911] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.810094] (-) TimerEvent: {}
+[2.811671] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.883239] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.910367] (-) TimerEvent: {}
+[2.975107] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.010542] (-) TimerEvent: {}
+[3.111175] (-) TimerEvent: {}
+[3.211830] (-) TimerEvent: {}
+[3.225533] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.242263] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.312253] (-) TimerEvent: {}
+[3.412891] (-) TimerEvent: {}
+[3.513489] (-) TimerEvent: {}
+[3.614170] (-) TimerEvent: {}
+[3.657190] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.714372] (-) TimerEvent: {}
+[3.782039] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.814555] (-) TimerEvent: {}
+[3.915136] (-) TimerEvent: {}
+[3.970440] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.015361] (-) TimerEvent: {}
+[4.020097] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.115575] (-) TimerEvent: {}
+[4.216209] (-) TimerEvent: {}
+[4.316867] (-) TimerEvent: {}
+[4.320540] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.322824] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.417088] (-) TimerEvent: {}
+[4.517742] (-) TimerEvent: {}
+[4.618384] (-) TimerEvent: {}
+[4.621566] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.626563] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.718590] (-) TimerEvent: {}
+[4.819265] (-) TimerEvent: {}
+[4.919894] (-) TimerEvent: {}
+[4.941303] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.020123] (-) TimerEvent: {}
+[5.028602] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.097108] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.120349] (-) TimerEvent: {}
+[5.171955] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.178875] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.179550] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.220576] (-) TimerEvent: {}
+[5.321244] (-) TimerEvent: {}
+[5.421871] (-) TimerEvent: {}
+[5.522537] (-) TimerEvent: {}
+[5.623154] (-) TimerEvent: {}
+[5.723808] (-) TimerEvent: {}
+[5.824408] (-) TimerEvent: {}
+[5.924998] (-) TimerEvent: {}
+[6.025634] (-) TimerEvent: {}
+[6.042982] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.097620] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[6.118250] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2\n'}
+[6.125767] (-) TimerEvent: {}
+[6.158063] (statespace_chaser_mpc_ros2) CommandEnded: {'returncode': 0}
+[6.160655] (statespace_chaser_mpc_ros2) JobProgress: {'identifier': 'statespace_chaser_mpc_ros2', 'progress': 'build'}
+[6.165380] (statespace_chaser_mpc_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2', '--', '-j12', '-l12'], 'cwd': '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida/RPOD_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1933'), ('SYSTEMD_EXEC_PID', '2384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4397'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:17207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2356,unix/rofida-Precision-7530:/tmp/.ICE-unix/2356'), ('INVOCATION_ID', 'a465180d777043e688459153b71a2017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ae45ddb4-6d81-4371-bbe7-5362ab9d3129'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[6.225995] (-) TimerEvent: {}
+[6.326623] (-) TimerEvent: {}
+[6.365020] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/statespace_chaser_gen.dir/src/gen/statespace_chaser_test0x2810x29_data.c.o\x1b[0m\n'}
+[6.365925] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/statespace_chaser_gen.dir/src/gen/statespace_chaser_test0x2810x29.c.o\x1b[0m\n'}
+[6.426839] (-) TimerEvent: {}
+[6.527451] (-) TimerEvent: {}
+[6.628102] (-) TimerEvent: {}
+[6.728738] (-) TimerEvent: {}
+[6.829360] (-) TimerEvent: {}
+[6.929971] (-) TimerEvent: {}
+[7.030567] (-) TimerEvent: {}
+[7.131183] (-) TimerEvent: {}
+[7.206863] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C static library libstatespace_chaser_gen.a\x1b[0m\n'}
+[7.231400] (-) TimerEvent: {}
+[7.331992] (-) TimerEvent: {}
+[7.334331] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[ 60%] Built target statespace_chaser_gen\n'}
+[7.417408] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/mpc_controller_node.dir/src/mpc_controller_node.cpp.o\x1b[0m\n'}
+[7.432187] (-) TimerEvent: {}
+[7.532791] (-) TimerEvent: {}
+[7.633406] (-) TimerEvent: {}
+[7.734031] (-) TimerEvent: {}
+[7.834683] (-) TimerEvent: {}
+[7.935323] (-) TimerEvent: {}
+[8.035957] (-) TimerEvent: {}
+[8.136607] (-) TimerEvent: {}
+[8.237264] (-) TimerEvent: {}
+[8.337883] (-) TimerEvent: {}
+[8.438497] (-) TimerEvent: {}
+[8.539105] (-) TimerEvent: {}
+[8.639760] (-) TimerEvent: {}
+[8.740388] (-) TimerEvent: {}
+[8.841027] (-) TimerEvent: {}
+[8.941829] (-) TimerEvent: {}
+[9.042485] (-) TimerEvent: {}
+[9.143118] (-) TimerEvent: {}
+[9.243914] (-) TimerEvent: {}
+[9.344611] (-) TimerEvent: {}
+[9.445281] (-) TimerEvent: {}
+[9.545922] (-) TimerEvent: {}
+[9.646581] (-) TimerEvent: {}
+[9.747270] (-) TimerEvent: {}
+[9.847904] (-) TimerEvent: {}
+[9.948561] (-) TimerEvent: {}
+[10.049182] (-) TimerEvent: {}
+[10.149836] (-) TimerEvent: {}
+[10.250497] (-) TimerEvent: {}
+[10.351137] (-) TimerEvent: {}
+[10.451802] (-) TimerEvent: {}
+[10.552435] (-) TimerEvent: {}
+[10.653070] (-) TimerEvent: {}
+[10.753736] (-) TimerEvent: {}
+[10.854375] (-) TimerEvent: {}
+[10.955005] (-) TimerEvent: {}
+[11.055672] (-) TimerEvent: {}
+[11.156340] (-) TimerEvent: {}
+[11.256976] (-) TimerEvent: {}
+[11.357635] (-) TimerEvent: {}
+[11.458295] (-) TimerEvent: {}
+[11.558927] (-) TimerEvent: {}
+[11.659596] (-) TimerEvent: {}
+[11.760239] (-) TimerEvent: {}
+[11.860889] (-) TimerEvent: {}
+[11.961498] (-) TimerEvent: {}
+[12.062140] (-) TimerEvent: {}
+[12.162813] (-) TimerEvent: {}
+[12.263484] (-) TimerEvent: {}
+[12.364114] (-) TimerEvent: {}
+[12.464932] (-) TimerEvent: {}
+[12.565638] (-) TimerEvent: {}
+[12.666304] (-) TimerEvent: {}
+[12.766948] (-) TimerEvent: {}
+[12.867597] (-) TimerEvent: {}
+[12.968255] (-) TimerEvent: {}
+[13.068904] (-) TimerEvent: {}
+[13.169583] (-) TimerEvent: {}
+[13.270252] (-) TimerEvent: {}
+[13.370882] (-) TimerEvent: {}
+[13.471553] (-) TimerEvent: {}
+[13.572199] (-) TimerEvent: {}
+[13.672864] (-) TimerEvent: {}
+[13.773572] (-) TimerEvent: {}
+[13.874204] (-) TimerEvent: {}
+[13.974859] (-) TimerEvent: {}
+[14.075427] (-) TimerEvent: {}
+[14.176042] (-) TimerEvent: {}
+[14.276737] (-) TimerEvent: {}
+[14.377440] (-) TimerEvent: {}
+[14.478091] (-) TimerEvent: {}
+[14.578750] (-) TimerEvent: {}
+[14.679386] (-) TimerEvent: {}
+[14.780018] (-) TimerEvent: {}
+[14.880689] (-) TimerEvent: {}
+[14.981343] (-) TimerEvent: {}
+[15.081984] (-) TimerEvent: {}
+[15.182667] (-) TimerEvent: {}
+[15.283337] (-) TimerEvent: {}
+[15.383973] (-) TimerEvent: {}
+[15.484648] (-) TimerEvent: {}
+[15.585305] (-) TimerEvent: {}
+[15.685946] (-) TimerEvent: {}
+[15.786559] (-) TimerEvent: {}
+[15.887211] (-) TimerEvent: {}
+[15.987901] (-) TimerEvent: {}
+[16.088602] (-) TimerEvent: {}
+[16.189243] (-) TimerEvent: {}
+[16.290010] (-) TimerEvent: {}
+[16.390658] (-) TimerEvent: {}
+[16.491311] (-) TimerEvent: {}
+[16.591948] (-) TimerEvent: {}
+[16.692558] (-) TimerEvent: {}
+[16.793189] (-) TimerEvent: {}
+[16.893860] (-) TimerEvent: {}
+[16.994525] (-) TimerEvent: {}
+[17.095161] (-) TimerEvent: {}
+[17.195827] (-) TimerEvent: {}
+[17.296416] (-) TimerEvent: {}
+[17.397064] (-) TimerEvent: {}
+[17.497730] (-) TimerEvent: {}
+[17.598376] (-) TimerEvent: {}
+[17.699000] (-) TimerEvent: {}
+[17.799668] (-) TimerEvent: {}
+[17.900335] (-) TimerEvent: {}
+[18.000977] (-) TimerEvent: {}
+[18.101656] (-) TimerEvent: {}
+[18.202319] (-) TimerEvent: {}
+[18.302957] (-) TimerEvent: {}
+[18.403886] (-) TimerEvent: {}
+[18.504538] (-) TimerEvent: {}
+[18.605308] (-) TimerEvent: {}
+[18.705926] (-) TimerEvent: {}
+[18.806724] (-) TimerEvent: {}
+[18.907368] (-) TimerEvent: {}
+[19.007995] (-) TimerEvent: {}
+[19.108650] (-) TimerEvent: {}
+[19.209310] (-) TimerEvent: {}
+[19.309957] (-) TimerEvent: {}
+[19.410630] (-) TimerEvent: {}
+[19.511292] (-) TimerEvent: {}
+[19.611947] (-) TimerEvent: {}
+[19.712616] (-) TimerEvent: {}
+[19.813267] (-) TimerEvent: {}
+[19.913893] (-) TimerEvent: {}
+[20.014543] (-) TimerEvent: {}
+[20.115181] (-) TimerEvent: {}
+[20.215838] (-) TimerEvent: {}
+[20.316470] (-) TimerEvent: {}
+[20.417137] (-) TimerEvent: {}
+[20.517833] (-) TimerEvent: {}
+[20.618473] (-) TimerEvent: {}
+[20.719136] (-) TimerEvent: {}
+[20.819795] (-) TimerEvent: {}
+[20.920404] (-) TimerEvent: {}
+[21.021015] (-) TimerEvent: {}
+[21.121650] (-) TimerEvent: {}
+[21.222306] (-) TimerEvent: {}
+[21.322936] (-) TimerEvent: {}
+[21.423593] (-) TimerEvent: {}
+[21.524270] (-) TimerEvent: {}
+[21.624905] (-) TimerEvent: {}
+[21.725706] (-) TimerEvent: {}
+[21.826342] (-) TimerEvent: {}
+[21.926955] (-) TimerEvent: {}
+[22.027644] (-) TimerEvent: {}
+[22.128305] (-) TimerEvent: {}
+[22.228922] (-) TimerEvent: {}
+[22.329582] (-) TimerEvent: {}
+[22.430205] (-) TimerEvent: {}
+[22.530865] (-) TimerEvent: {}
+[22.631543] (-) TimerEvent: {}
+[22.732178] (-) TimerEvent: {}
+[22.832849] (-) TimerEvent: {}
+[22.933514] (-) TimerEvent: {}
+[23.034177] (-) TimerEvent: {}
+[23.134852] (-) TimerEvent: {}
+[23.235513] (-) TimerEvent: {}
+[23.336150] (-) TimerEvent: {}
+[23.436827] (-) TimerEvent: {}
+[23.537473] (-) TimerEvent: {}
+[23.638116] (-) TimerEvent: {}
+[23.738790] (-) TimerEvent: {}
+[23.839417] (-) TimerEvent: {}
+[23.940066] (-) TimerEvent: {}
+[24.040889] (-) TimerEvent: {}
+[24.141516] (-) TimerEvent: {}
+[24.242343] (-) TimerEvent: {}
+[24.343003] (-) TimerEvent: {}
+[24.443695] (-) TimerEvent: {}
+[24.544348] (-) TimerEvent: {}
+[24.644999] (-) TimerEvent: {}
+[24.745647] (-) TimerEvent: {}
+[24.846304] (-) TimerEvent: {}
+[24.946941] (-) TimerEvent: {}
+[25.047583] (-) TimerEvent: {}
+[25.148209] (-) TimerEvent: {}
+[25.248865] (-) TimerEvent: {}
+[25.349517] (-) TimerEvent: {}
+[25.450147] (-) TimerEvent: {}
+[25.550796] (-) TimerEvent: {}
+[25.651430] (-) TimerEvent: {}
+[25.752066] (-) TimerEvent: {}
+[25.852732] (-) TimerEvent: {}
+[25.953363] (-) TimerEvent: {}
+[26.053987] (-) TimerEvent: {}
+[26.154653] (-) TimerEvent: {}
+[26.255311] (-) TimerEvent: {}
+[26.355953] (-) TimerEvent: {}
+[26.456638] (-) TimerEvent: {}
+[26.557290] (-) TimerEvent: {}
+[26.657910] (-) TimerEvent: {}
+[26.758659] (-) TimerEvent: {}
+[26.859328] (-) TimerEvent: {}
+[26.959958] (-) TimerEvent: {}
+[27.060590] (-) TimerEvent: {}
+[27.161337] (-) TimerEvent: {}
+[27.261969] (-) TimerEvent: {}
+[27.362643] (-) TimerEvent: {}
+[27.463311] (-) TimerEvent: {}
+[27.563933] (-) TimerEvent: {}
+[27.664588] (-) TimerEvent: {}
+[27.765245] (-) TimerEvent: {}
+[27.865861] (-) TimerEvent: {}
+[27.966513] (-) TimerEvent: {}
+[28.067139] (-) TimerEvent: {}
+[28.167800] (-) TimerEvent: {}
+[28.268429] (-) TimerEvent: {}
+[28.369052] (-) TimerEvent: {}
+[28.469726] (-) TimerEvent: {}
+[28.570346] (-) TimerEvent: {}
+[28.670981] (-) TimerEvent: {}
+[28.771651] (-) TimerEvent: {}
+[28.872297] (-) TimerEvent: {}
+[28.972925] (-) TimerEvent: {}
+[29.073591] (-) TimerEvent: {}
+[29.174253] (-) TimerEvent: {}
+[29.274882] (-) TimerEvent: {}
+[29.375542] (-) TimerEvent: {}
+[29.476172] (-) TimerEvent: {}
+[29.576800] (-) TimerEvent: {}
+[29.677599] (-) TimerEvent: {}
+[29.778212] (-) TimerEvent: {}
+[29.879048] (-) TimerEvent: {}
+[29.979720] (-) TimerEvent: {}
+[30.080337] (-) TimerEvent: {}
+[30.180985] (-) TimerEvent: {}
+[30.281644] (-) TimerEvent: {}
+[30.382298] (-) TimerEvent: {}
+[30.482922] (-) TimerEvent: {}
+[30.583594] (-) TimerEvent: {}
+[30.684256] (-) TimerEvent: {}
+[30.784888] (-) TimerEvent: {}
+[30.885547] (-) TimerEvent: {}
+[30.986176] (-) TimerEvent: {}
+[31.086831] (-) TimerEvent: {}
+[31.187500] (-) TimerEvent: {}
+[31.288151] (-) TimerEvent: {}
+[31.388814] (-) TimerEvent: {}
+[31.489465] (-) TimerEvent: {}
+[31.590105] (-) TimerEvent: {}
+[31.690765] (-) TimerEvent: {}
+[31.791409] (-) TimerEvent: {}
+[31.892040] (-) TimerEvent: {}
+[31.992706] (-) TimerEvent: {}
+[32.093354] (-) TimerEvent: {}
+[32.194158] (-) TimerEvent: {}
+[32.294839] (-) TimerEvent: {}
+[32.395549] (-) TimerEvent: {}
+[32.496165] (-) TimerEvent: {}
+[32.596962] (-) TimerEvent: {}
+[32.697592] (-) TimerEvent: {}
+[32.798255] (-) TimerEvent: {}
+[32.898892] (-) TimerEvent: {}
+[32.999495] (-) TimerEvent: {}
+[33.100132] (-) TimerEvent: {}
+[33.200797] (-) TimerEvent: {}
+[33.301426] (-) TimerEvent: {}
+[33.402060] (-) TimerEvent: {}
+[33.502728] (-) TimerEvent: {}
+[33.603374] (-) TimerEvent: {}
+[33.704005] (-) TimerEvent: {}
+[33.804664] (-) TimerEvent: {}
+[33.905310] (-) TimerEvent: {}
+[34.005942] (-) TimerEvent: {}
+[34.106600] (-) TimerEvent: {}
+[34.207261] (-) TimerEvent: {}
+[34.307887] (-) TimerEvent: {}
+[34.408545] (-) TimerEvent: {}
+[34.509173] (-) TimerEvent: {}
+[34.609831] (-) TimerEvent: {}
+[34.710491] (-) TimerEvent: {}
+[34.811125] (-) TimerEvent: {}
+[34.911791] (-) TimerEvent: {}
+[35.012453] (-) TimerEvent: {}
+[35.113071] (-) TimerEvent: {}
+[35.213764] (-) TimerEvent: {}
+[35.314396] (-) TimerEvent: {}
+[35.415038] (-) TimerEvent: {}
+[35.515685] (-) TimerEvent: {}
+[35.616350] (-) TimerEvent: {}
+[35.716986] (-) TimerEvent: {}
+[35.817590] (-) TimerEvent: {}
+[35.918238] (-) TimerEvent: {}
+[36.018883] (-) TimerEvent: {}
+[36.119604] (-) TimerEvent: {}
+[36.220267] (-) TimerEvent: {}
+[36.320912] (-) TimerEvent: {}
+[36.421611] (-) TimerEvent: {}
+[36.522264] (-) TimerEvent: {}
+[36.622898] (-) TimerEvent: {}
+[36.723541] (-) TimerEvent: {}
+[36.824164] (-) TimerEvent: {}
+[36.924814] (-) TimerEvent: {}
+[37.025447] (-) TimerEvent: {}
+[37.126067] (-) TimerEvent: {}
+[37.226802] (-) TimerEvent: {}
+[37.327356] (-) TimerEvent: {}
+[37.427982] (-) TimerEvent: {}
+[37.528575] (-) TimerEvent: {}
+[37.629196] (-) TimerEvent: {}
+[37.729847] (-) TimerEvent: {}
+[37.830412] (-) TimerEvent: {}
+[37.931011] (-) TimerEvent: {}
+[38.031773] (-) TimerEvent: {}
+[38.132412] (-) TimerEvent: {}
+[38.233044] (-) TimerEvent: {}
+[38.333712] (-) TimerEvent: {}
+[38.434515] (-) TimerEvent: {}
+[38.535152] (-) TimerEvent: {}
+[38.635796] (-) TimerEvent: {}
+[38.736496] (-) TimerEvent: {}
+[38.837124] (-) TimerEvent: {}
+[38.937781] (-) TimerEvent: {}
+[39.038407] (-) TimerEvent: {}
+[39.139048] (-) TimerEvent: {}
+[39.239713] (-) TimerEvent: {}
+[39.340358] (-) TimerEvent: {}
+[39.440986] (-) TimerEvent: {}
+[39.541595] (-) TimerEvent: {}
+[39.642248] (-) TimerEvent: {}
+[39.742890] (-) TimerEvent: {}
+[39.843494] (-) TimerEvent: {}
+[39.944122] (-) TimerEvent: {}
+[40.044766] (-) TimerEvent: {}
+[40.145408] (-) TimerEvent: {}
+[40.246052] (-) TimerEvent: {}
+[40.346701] (-) TimerEvent: {}
+[40.447345] (-) TimerEvent: {}
+[40.547982] (-) TimerEvent: {}
+[40.648652] (-) TimerEvent: {}
+[40.749311] (-) TimerEvent: {}
+[40.850028] (-) TimerEvent: {}
+[40.950737] (-) TimerEvent: {}
+[41.051370] (-) TimerEvent: {}
+[41.152005] (-) TimerEvent: {}
+[41.252647] (-) TimerEvent: {}
+[41.353356] (-) TimerEvent: {}
+[41.453980] (-) TimerEvent: {}
+[41.554785] (-) TimerEvent: {}
+[41.655412] (-) TimerEvent: {}
+[41.756085] (-) TimerEvent: {}
+[41.856762] (-) TimerEvent: {}
+[41.957456] (-) TimerEvent: {}
+[41.983976] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpc_controller_node\x1b[0m\n'}
+[42.057657] (-) TimerEvent: {}
+[42.158329] (-) TimerEvent: {}
+[42.258966] (-) TimerEvent: {}
+[42.359615] (-) TimerEvent: {}
+[42.460280] (-) TimerEvent: {}
+[42.560899] (-) TimerEvent: {}
+[42.661573] (-) TimerEvent: {}
+[42.762248] (-) TimerEvent: {}
+[42.862884] (-) TimerEvent: {}
+[42.963541] (-) TimerEvent: {}
+[43.064164] (-) TimerEvent: {}
+[43.164836] (-) TimerEvent: {}
+[43.265506] (-) TimerEvent: {}
+[43.366135] (-) TimerEvent: {}
+[43.466815] (-) TimerEvent: {}
+[43.567485] (-) TimerEvent: {}
+[43.668106] (-) TimerEvent: {}
+[43.711734] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[100%] Built target mpc_controller_node\n'}
+[43.756944] (statespace_chaser_mpc_ros2) CommandEnded: {'returncode': 0}
+[43.759382] (statespace_chaser_mpc_ros2) JobProgress: {'identifier': 'statespace_chaser_mpc_ros2', 'progress': 'install'}
+[43.768309] (-) TimerEvent: {}
+[43.796280] (statespace_chaser_mpc_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2'], 'cwd': '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida/RPOD_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1933'), ('SYSTEMD_EXEC_PID', '2384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4397'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:17207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2356,unix/rofida-Precision-7530:/tmp/.ICE-unix/2356'), ('INVOCATION_ID', 'a465180d777043e688459153b71a2017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ae45ddb4-6d81-4371-bbe7-5362ab9d3129'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[43.824565] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.826526] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[43.827940] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/lib/statespace_chaser_mpc_ros2/mpc_controller_node\n'}
+[43.863130] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/launch/mpc_controller.launch.py\n'}
+[43.868446] (-) TimerEvent: {}
+[43.897481] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/ament_index/resource_index/package_run_dependencies/statespace_chaser_mpc_ros2\n'}
+[43.932286] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/ament_index/resource_index/parent_prefix_path/statespace_chaser_mpc_ros2\n'}
+[43.968066] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/environment/ament_prefix_path.sh\n'}
+[43.968577] (-) TimerEvent: {}
+[44.001940] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/environment/ament_prefix_path.dsv\n'}
+[44.036195] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/environment/path.sh\n'}
+[44.068785] (-) TimerEvent: {}
+[44.069875] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/environment/path.dsv\n'}
+[44.103603] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/local_setup.bash\n'}
+[44.138062] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/local_setup.sh\n'}
+[44.168998] (-) TimerEvent: {}
+[44.172582] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/local_setup.zsh\n'}
+[44.206898] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/local_setup.dsv\n'}
+[44.240944] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/package.dsv\n'}
+[44.269193] (-) TimerEvent: {}
+[44.274801] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/ament_index/resource_index/packages/statespace_chaser_mpc_ros2\n'}
+[44.309036] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/cmake/statespace_chaser_mpc_ros2Config.cmake\n'}
+[44.343807] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/cmake/statespace_chaser_mpc_ros2Config-version.cmake\n'}
+[44.369424] (-) TimerEvent: {}
+[44.378455] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/package.xml\n'}
+[44.419091] (statespace_chaser_mpc_ros2) CommandEnded: {'returncode': 0}
+[44.469618] (-) TimerEvent: {}
+[44.485243] (statespace_chaser_mpc_ros2) JobEnded: {'identifier': 'statespace_chaser_mpc_ros2', 'rc': 0}
+[44.487577] (-) EventReactorShutdown: {}

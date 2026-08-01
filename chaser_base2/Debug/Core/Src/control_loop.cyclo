@@ -1,0 +1,8 @@
+../Core/Src/control_loop.c:9:6:ControlLoop_Init	2
+../Core/Src/control_loop.c:26:6:ControlLoop_Run	11
+../Core/Src/control_loop.c:87:9:ControlLoop_GetSnapshot	3
+../Core/Src/control_loop.c:106:6:ControlLoop_SetTarget	5
+../Core/Src/control_loop.c:137:6:ControlLoop_SetAllTargets	2
+../Core/Src/control_loop.c:144:6:ControlLoop_Enable	2
+../Core/Src/control_loop.c:153:6:ControlLoop_Disable	1
+../Core/Src/control_loop.c:167:9:ControlLoop_SetGains	12

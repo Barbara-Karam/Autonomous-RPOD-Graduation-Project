@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target mpc_super_visor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mpc_super_visor_node.dir/src/mpc_super_visor_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mpc_super_visor_node[0m
+[100%] Built target mpc_super_visor_node
+-- Install configuration: ""
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/lib/mpc_super_visor/mpc_super_visor_node
+-- Set runtime path of "/home/rofida/RPOD_ws/install/mpc_super_visor/lib/mpc_super_visor/mpc_super_visor_node" to ""
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/package_run_dependencies/mpc_super_visor
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/parent_prefix_path/mpc_super_visor
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/ament_prefix_path.sh
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/ament_prefix_path.dsv
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/path.sh
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/path.dsv
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.bash
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.sh
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.zsh
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.dsv
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/package.dsv
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/packages/mpc_super_visor
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/cmake/mpc_super_visorConfig.cmake
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/cmake/mpc_super_visorConfig-version.cmake
+-- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/package.xml

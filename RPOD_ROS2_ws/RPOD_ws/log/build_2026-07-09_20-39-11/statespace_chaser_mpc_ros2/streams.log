@@ -1,0 +1,6 @@
+[0.112s] Invoking command in '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2 -- -j12 -l12
+[0.352s] [ 60%] Built target statespace_chaser_gen
+[0.412s] [35m[1mConsolidate compiler generated dependencies of target mpc_controller_node[0m
+[0.516s] [ 80%] [32mBuilding CXX object CMakeFiles/mpc_controller_node.dir/src/mpc_controller_node.cpp.o[0m
+[48.153s] [100%] [32m[1mLinking CXX executable mpc_controller_node[0m
+[50.723s] [100%] Built target mpc_controller_node

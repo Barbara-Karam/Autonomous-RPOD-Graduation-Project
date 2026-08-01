@@ -1,0 +1,679 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (modelv2_mpc_limited_ros2) JobQueued: {'identifier': 'modelv2_mpc_limited_ros2', 'dependencies': OrderedDict()}
+[0.000607] (motor_uart_pkg) JobQueued: {'identifier': 'motor_uart_pkg', 'dependencies': OrderedDict()}
+[0.000694] (speed_processing) JobQueued: {'identifier': 'speed_processing', 'dependencies': OrderedDict()}
+[0.000770] (statespace_chaser_mpc_ros2) JobQueued: {'identifier': 'statespace_chaser_mpc_ros2', 'dependencies': OrderedDict()}
+[0.000842] (modelv2_mpc_limited_ros2) JobStarted: {'identifier': 'modelv2_mpc_limited_ros2'}
+[0.034622] (motor_uart_pkg) JobStarted: {'identifier': 'motor_uart_pkg'}
+[0.050311] (speed_processing) JobStarted: {'identifier': 'speed_processing'}
+[0.068226] (statespace_chaser_mpc_ros2) JobStarted: {'identifier': 'statespace_chaser_mpc_ros2'}
+[0.088161] (modelv2_mpc_limited_ros2) JobProgress: {'identifier': 'modelv2_mpc_limited_ros2', 'progress': 'cmake'}
+[0.092962] (modelv2_mpc_limited_ros2) JobProgress: {'identifier': 'modelv2_mpc_limited_ros2', 'progress': 'build'}
+[0.095721] (modelv2_mpc_limited_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rofida/RPOD_ws/build/modelv2_mpc_limited_ros2', '--', '-j12', '-l12'], 'cwd': '/home/rofida/RPOD_ws/build/modelv2_mpc_limited_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/modelv2_mpc_limited_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[0.100020] (-) TimerEvent: {}
+[0.108984] (motor_uart_pkg) JobProgress: {'identifier': 'motor_uart_pkg', 'progress': 'cmake'}
+[0.112884] (motor_uart_pkg) JobProgress: {'identifier': 'motor_uart_pkg', 'progress': 'build'}
+[0.114039] (motor_uart_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rofida/RPOD_ws/build/motor_uart_pkg', '--', '-j12', '-l12'], 'cwd': '/home/rofida/RPOD_ws/build/motor_uart_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/motor_uart_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[0.123006] (speed_processing) JobProgress: {'identifier': 'speed_processing', 'progress': 'cmake'}
+[0.125008] (speed_processing) JobProgress: {'identifier': 'speed_processing', 'progress': 'build'}
+[0.126122] (speed_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rofida/RPOD_ws/build/speed_processing', '--', '-j12', '-l12'], 'cwd': '/home/rofida/RPOD_ws/build/speed_processing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/speed_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[0.142691] (statespace_chaser_mpc_ros2) JobProgress: {'identifier': 'statespace_chaser_mpc_ros2', 'progress': 'cmake'}
+[0.151564] (statespace_chaser_mpc_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/rofida/RPOD_ws/src/statespace_chaser_mpc_ros2', '-DCMAKE_INSTALL_PREFIX=/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2'], 'cwd': '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[0.200278] (-) TimerEvent: {}
+[0.236570] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300489] (-) TimerEvent: {}
+[0.401162] (-) TimerEvent: {}
+[0.428141] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'[ 60%] Built target modelv2_gen\n'}
+[0.496485] (speed_processing) StdoutLine: {'line': b'[100%] Built target speed_processing\n'}
+[0.497505] (motor_uart_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_uart_node.dir/src/motor_uart_node.cpp.o\x1b[0m\n'}
+[0.501324] (-) TimerEvent: {}
+[0.541071] (speed_processing) CommandEnded: {'returncode': 0}
+[0.546351] (speed_processing) JobProgress: {'identifier': 'speed_processing', 'progress': 'install'}
+[0.550082] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/mpc_controller_node.dir/src/mpc_controller_node.cpp.o\x1b[0m\n'}
+[0.582402] (speed_processing) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rofida/RPOD_ws/build/speed_processing'], 'cwd': '/home/rofida/RPOD_ws/build/speed_processing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/speed_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[0.601499] (-) TimerEvent: {}
+[0.616248] (speed_processing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.619194] (speed_processing) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.621857] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/lib/speed_processing/speed_processing\n'}
+[0.622759] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/ament_index/resource_index/package_run_dependencies/speed_processing\n'}
+[0.624404] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/ament_index/resource_index/parent_prefix_path/speed_processing\n'}
+[0.625731] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/environment/ament_prefix_path.sh\n'}
+[0.626534] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/environment/ament_prefix_path.dsv\n'}
+[0.627702] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/environment/path.sh\n'}
+[0.628496] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/environment/path.dsv\n'}
+[0.629588] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/local_setup.bash\n'}
+[0.630943] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/local_setup.sh\n'}
+[0.634251] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/local_setup.zsh\n'}
+[0.635143] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/local_setup.dsv\n'}
+[0.635853] (speed_processing) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/package.dsv\n'}
+[0.672806] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/ament_index/resource_index/packages/speed_processing\n'}
+[0.674883] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/cmake/speed_processingConfig.cmake\n'}
+[0.676013] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/cmake/speed_processingConfig-version.cmake\n'}
+[0.676962] (speed_processing) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/speed_processing/share/speed_processing/package.xml\n'}
+[0.684907] (speed_processing) CommandEnded: {'returncode': 0}
+[0.701706] (-) TimerEvent: {}
+[0.801013] (speed_processing) JobEnded: {'identifier': 'speed_processing', 'rc': 0}
+[0.803250] (-) TimerEvent: {}
+[0.828453] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.894128] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.903356] (-) TimerEvent: {}
+[1.004107] (-) TimerEvent: {}
+[1.067302] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.082264] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.104282] (-) TimerEvent: {}
+[1.118516] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.175829] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.204474] (-) TimerEvent: {}
+[1.248290] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.304667] (-) TimerEvent: {}
+[1.405520] (-) TimerEvent: {}
+[1.437109] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.448507] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.505700] (-) TimerEvent: {}
+[1.606456] (-) TimerEvent: {}
+[1.707367] (-) TimerEvent: {}
+[1.808335] (-) TimerEvent: {}
+[1.909276] (-) TimerEvent: {}
+[1.950621] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.009473] (-) TimerEvent: {}
+[2.110292] (-) TimerEvent: {}
+[2.211080] (-) TimerEvent: {}
+[2.279720] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.311321] (-) TimerEvent: {}
+[2.350150] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.375637] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.396078] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.402934] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.411502] (-) TimerEvent: {}
+[2.512332] (-) TimerEvent: {}
+[2.613163] (-) TimerEvent: {}
+[2.714006] (-) TimerEvent: {}
+[2.814701] (-) TimerEvent: {}
+[2.915401] (-) TimerEvent: {}
+[3.016042] (-) TimerEvent: {}
+[3.116731] (-) TimerEvent: {}
+[3.181869] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.216962] (-) TimerEvent: {}
+[3.257116] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.314887] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2\n'}
+[3.317139] (-) TimerEvent: {}
+[3.344294] (statespace_chaser_mpc_ros2) CommandEnded: {'returncode': 0}
+[3.346766] (statespace_chaser_mpc_ros2) JobProgress: {'identifier': 'statespace_chaser_mpc_ros2', 'progress': 'build'}
+[3.350143] (statespace_chaser_mpc_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2', '--', '-j12', '-l12'], 'cwd': '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[3.417362] (-) TimerEvent: {}
+[3.513884] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target statespace_chaser_gen\x1b[0m\n'}
+[3.517493] (-) TimerEvent: {}
+[3.560282] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[ 60%] Built target statespace_chaser_gen\n'}
+[3.606053] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpc_controller_node\x1b[0m\n'}
+[3.617683] (-) TimerEvent: {}
+[3.678833] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/mpc_controller_node.dir/src/mpc_controller_node.cpp.o\x1b[0m\n'}
+[3.717923] (-) TimerEvent: {}
+[3.818976] (-) TimerEvent: {}
+[3.919978] (-) TimerEvent: {}
+[4.020859] (-) TimerEvent: {}
+[4.121832] (-) TimerEvent: {}
+[4.222848] (-) TimerEvent: {}
+[4.323843] (-) TimerEvent: {}
+[4.424866] (-) TimerEvent: {}
+[4.525707] (-) TimerEvent: {}
+[4.626733] (-) TimerEvent: {}
+[4.727745] (-) TimerEvent: {}
+[4.828754] (-) TimerEvent: {}
+[4.929703] (-) TimerEvent: {}
+[5.030722] (-) TimerEvent: {}
+[5.131739] (-) TimerEvent: {}
+[5.232633] (-) TimerEvent: {}
+[5.333531] (-) TimerEvent: {}
+[5.434401] (-) TimerEvent: {}
+[5.535306] (-) TimerEvent: {}
+[5.636159] (-) TimerEvent: {}
+[5.737059] (-) TimerEvent: {}
+[5.837970] (-) TimerEvent: {}
+[5.938853] (-) TimerEvent: {}
+[6.039746] (-) TimerEvent: {}
+[6.140649] (-) TimerEvent: {}
+[6.241555] (-) TimerEvent: {}
+[6.342432] (-) TimerEvent: {}
+[6.443328] (-) TimerEvent: {}
+[6.544228] (-) TimerEvent: {}
+[6.645086] (-) TimerEvent: {}
+[6.745999] (-) TimerEvent: {}
+[6.846923] (-) TimerEvent: {}
+[6.947829] (-) TimerEvent: {}
+[7.048720] (-) TimerEvent: {}
+[7.149645] (-) TimerEvent: {}
+[7.250586] (-) TimerEvent: {}
+[7.351283] (-) TimerEvent: {}
+[7.451973] (-) TimerEvent: {}
+[7.552846] (-) TimerEvent: {}
+[7.653488] (-) TimerEvent: {}
+[7.754154] (-) TimerEvent: {}
+[7.854844] (-) TimerEvent: {}
+[7.955483] (-) TimerEvent: {}
+[8.056170] (-) TimerEvent: {}
+[8.156860] (-) TimerEvent: {}
+[8.257505] (-) TimerEvent: {}
+[8.358170] (-) TimerEvent: {}
+[8.458850] (-) TimerEvent: {}
+[8.559500] (-) TimerEvent: {}
+[8.660162] (-) TimerEvent: {}
+[8.760857] (-) TimerEvent: {}
+[8.861508] (-) TimerEvent: {}
+[8.962169] (-) TimerEvent: {}
+[9.062861] (-) TimerEvent: {}
+[9.163543] (-) TimerEvent: {}
+[9.264248] (-) TimerEvent: {}
+[9.364927] (-) TimerEvent: {}
+[9.465638] (-) TimerEvent: {}
+[9.566340] (-) TimerEvent: {}
+[9.667133] (-) TimerEvent: {}
+[9.767939] (-) TimerEvent: {}
+[9.868885] (-) TimerEvent: {}
+[9.969794] (-) TimerEvent: {}
+[10.070704] (-) TimerEvent: {}
+[10.171597] (-) TimerEvent: {}
+[10.272480] (-) TimerEvent: {}
+[10.373363] (-) TimerEvent: {}
+[10.474281] (-) TimerEvent: {}
+[10.575172] (-) TimerEvent: {}
+[10.676043] (-) TimerEvent: {}
+[10.776948] (-) TimerEvent: {}
+[10.877845] (-) TimerEvent: {}
+[10.978737] (-) TimerEvent: {}
+[11.079633] (-) TimerEvent: {}
+[11.180532] (-) TimerEvent: {}
+[11.281418] (-) TimerEvent: {}
+[11.382346] (-) TimerEvent: {}
+[11.483239] (-) TimerEvent: {}
+[11.584089] (-) TimerEvent: {}
+[11.684979] (-) TimerEvent: {}
+[11.785877] (-) TimerEvent: {}
+[11.886773] (-) TimerEvent: {}
+[11.987650] (-) TimerEvent: {}
+[12.088486] (-) TimerEvent: {}
+[12.189308] (-) TimerEvent: {}
+[12.290125] (-) TimerEvent: {}
+[12.390822] (-) TimerEvent: {}
+[12.491543] (-) TimerEvent: {}
+[12.592306] (-) TimerEvent: {}
+[12.692984] (-) TimerEvent: {}
+[12.793675] (-) TimerEvent: {}
+[12.894332] (-) TimerEvent: {}
+[12.994987] (-) TimerEvent: {}
+[13.095693] (-) TimerEvent: {}
+[13.196368] (-) TimerEvent: {}
+[13.297038] (-) TimerEvent: {}
+[13.397785] (-) TimerEvent: {}
+[13.498612] (-) TimerEvent: {}
+[13.599293] (-) TimerEvent: {}
+[13.699954] (-) TimerEvent: {}
+[13.800630] (-) TimerEvent: {}
+[13.901309] (-) TimerEvent: {}
+[14.001941] (-) TimerEvent: {}
+[14.102619] (-) TimerEvent: {}
+[14.203301] (-) TimerEvent: {}
+[14.303973] (-) TimerEvent: {}
+[14.404652] (-) TimerEvent: {}
+[14.505327] (-) TimerEvent: {}
+[14.605991] (-) TimerEvent: {}
+[14.706884] (-) TimerEvent: {}
+[14.807599] (-) TimerEvent: {}
+[14.908314] (-) TimerEvent: {}
+[15.009007] (-) TimerEvent: {}
+[15.109723] (-) TimerEvent: {}
+[15.210397] (-) TimerEvent: {}
+[15.311064] (-) TimerEvent: {}
+[15.411774] (-) TimerEvent: {}
+[15.512658] (-) TimerEvent: {}
+[15.613342] (-) TimerEvent: {}
+[15.714148] (-) TimerEvent: {}
+[15.814823] (-) TimerEvent: {}
+[15.915519] (-) TimerEvent: {}
+[16.016247] (-) TimerEvent: {}
+[16.116911] (-) TimerEvent: {}
+[16.217576] (-) TimerEvent: {}
+[16.318264] (-) TimerEvent: {}
+[16.418927] (-) TimerEvent: {}
+[16.519644] (-) TimerEvent: {}
+[16.620330] (-) TimerEvent: {}
+[16.721006] (-) TimerEvent: {}
+[16.821808] (-) TimerEvent: {}
+[16.922527] (-) TimerEvent: {}
+[17.023235] (-) TimerEvent: {}
+[17.123912] (-) TimerEvent: {}
+[17.224565] (-) TimerEvent: {}
+[17.325286] (-) TimerEvent: {}
+[17.425983] (-) TimerEvent: {}
+[17.526682] (-) TimerEvent: {}
+[17.627377] (-) TimerEvent: {}
+[17.728047] (-) TimerEvent: {}
+[17.828791] (-) TimerEvent: {}
+[17.929467] (-) TimerEvent: {}
+[18.030129] (-) TimerEvent: {}
+[18.130828] (-) TimerEvent: {}
+[18.231501] (-) TimerEvent: {}
+[18.332168] (-) TimerEvent: {}
+[18.432850] (-) TimerEvent: {}
+[18.533548] (-) TimerEvent: {}
+[18.634237] (-) TimerEvent: {}
+[18.734901] (-) TimerEvent: {}
+[18.835600] (-) TimerEvent: {}
+[18.936292] (-) TimerEvent: {}
+[19.036952] (-) TimerEvent: {}
+[19.137649] (-) TimerEvent: {}
+[19.238344] (-) TimerEvent: {}
+[19.339043] (-) TimerEvent: {}
+[19.439743] (-) TimerEvent: {}
+[19.540477] (-) TimerEvent: {}
+[19.641162] (-) TimerEvent: {}
+[19.741881] (-) TimerEvent: {}
+[19.842603] (-) TimerEvent: {}
+[19.943317] (-) TimerEvent: {}
+[20.044013] (-) TimerEvent: {}
+[20.144724] (-) TimerEvent: {}
+[20.245402] (-) TimerEvent: {}
+[20.346097] (-) TimerEvent: {}
+[20.446805] (-) TimerEvent: {}
+[20.547515] (-) TimerEvent: {}
+[20.648197] (-) TimerEvent: {}
+[20.748922] (-) TimerEvent: {}
+[20.849622] (-) TimerEvent: {}
+[20.950326] (-) TimerEvent: {}
+[21.051028] (-) TimerEvent: {}
+[21.151774] (-) TimerEvent: {}
+[21.252450] (-) TimerEvent: {}
+[21.353152] (-) TimerEvent: {}
+[21.453871] (-) TimerEvent: {}
+[21.554581] (-) TimerEvent: {}
+[21.655286] (-) TimerEvent: {}
+[21.756134] (-) TimerEvent: {}
+[21.856850] (-) TimerEvent: {}
+[21.957562] (-) TimerEvent: {}
+[22.058290] (-) TimerEvent: {}
+[22.158966] (-) TimerEvent: {}
+[22.259657] (-) TimerEvent: {}
+[22.360330] (-) TimerEvent: {}
+[22.460996] (-) TimerEvent: {}
+[22.561655] (-) TimerEvent: {}
+[22.662326] (-) TimerEvent: {}
+[22.762985] (-) TimerEvent: {}
+[22.863645] (-) TimerEvent: {}
+[22.964323] (-) TimerEvent: {}
+[23.064996] (-) TimerEvent: {}
+[23.165689] (-) TimerEvent: {}
+[23.266359] (-) TimerEvent: {}
+[23.367032] (-) TimerEvent: {}
+[23.467729] (-) TimerEvent: {}
+[23.568401] (-) TimerEvent: {}
+[23.669059] (-) TimerEvent: {}
+[23.769733] (-) TimerEvent: {}
+[23.870449] (-) TimerEvent: {}
+[23.971138] (-) TimerEvent: {}
+[24.071850] (-) TimerEvent: {}
+[24.172561] (-) TimerEvent: {}
+[24.273425] (-) TimerEvent: {}
+[24.374083] (-) TimerEvent: {}
+[24.474766] (-) TimerEvent: {}
+[24.575470] (-) TimerEvent: {}
+[24.676284] (-) TimerEvent: {}
+[24.776934] (-) TimerEvent: {}
+[24.877594] (-) TimerEvent: {}
+[24.978281] (-) TimerEvent: {}
+[25.078958] (-) TimerEvent: {}
+[25.179646] (-) TimerEvent: {}
+[25.280328] (-) TimerEvent: {}
+[25.380984] (-) TimerEvent: {}
+[25.481652] (-) TimerEvent: {}
+[25.582326] (-) TimerEvent: {}
+[25.682978] (-) TimerEvent: {}
+[25.783680] (-) TimerEvent: {}
+[25.884353] (-) TimerEvent: {}
+[25.985182] (-) TimerEvent: {}
+[26.085856] (-) TimerEvent: {}
+[26.186708] (-) TimerEvent: {}
+[26.287352] (-) TimerEvent: {}
+[26.388177] (-) TimerEvent: {}
+[26.488869] (-) TimerEvent: {}
+[26.589548] (-) TimerEvent: {}
+[26.690192] (-) TimerEvent: {}
+[26.790896] (-) TimerEvent: {}
+[26.891625] (-) TimerEvent: {}
+[26.992307] (-) TimerEvent: {}
+[27.092946] (-) TimerEvent: {}
+[27.193613] (-) TimerEvent: {}
+[27.294298] (-) TimerEvent: {}
+[27.394942] (-) TimerEvent: {}
+[27.495585] (-) TimerEvent: {}
+[27.596255] (-) TimerEvent: {}
+[27.696912] (-) TimerEvent: {}
+[27.797548] (-) TimerEvent: {}
+[27.898200] (-) TimerEvent: {}
+[27.998880] (-) TimerEvent: {}
+[28.099520] (-) TimerEvent: {}
+[28.200197] (-) TimerEvent: {}
+[28.300886] (-) TimerEvent: {}
+[28.401518] (-) TimerEvent: {}
+[28.502170] (-) TimerEvent: {}
+[28.602841] (-) TimerEvent: {}
+[28.703487] (-) TimerEvent: {}
+[28.804135] (-) TimerEvent: {}
+[28.904818] (-) TimerEvent: {}
+[29.005453] (-) TimerEvent: {}
+[29.106118] (-) TimerEvent: {}
+[29.206901] (-) TimerEvent: {}
+[29.307605] (-) TimerEvent: {}
+[29.408320] (-) TimerEvent: {}
+[29.508966] (-) TimerEvent: {}
+[29.609611] (-) TimerEvent: {}
+[29.710291] (-) TimerEvent: {}
+[29.811025] (-) TimerEvent: {}
+[29.911695] (-) TimerEvent: {}
+[30.012352] (-) TimerEvent: {}
+[30.112997] (-) TimerEvent: {}
+[30.213669] (-) TimerEvent: {}
+[30.314332] (-) TimerEvent: {}
+[30.414981] (-) TimerEvent: {}
+[30.515666] (-) TimerEvent: {}
+[30.616324] (-) TimerEvent: {}
+[30.716970] (-) TimerEvent: {}
+[30.817631] (-) TimerEvent: {}
+[30.918258] (-) TimerEvent: {}
+[31.018902] (-) TimerEvent: {}
+[31.119595] (-) TimerEvent: {}
+[31.220272] (-) TimerEvent: {}
+[31.320922] (-) TimerEvent: {}
+[31.421555] (-) TimerEvent: {}
+[31.522323] (-) TimerEvent: {}
+[31.623063] (-) TimerEvent: {}
+[31.723739] (-) TimerEvent: {}
+[31.824391] (-) TimerEvent: {}
+[31.925043] (-) TimerEvent: {}
+[32.025702] (-) TimerEvent: {}
+[32.126331] (-) TimerEvent: {}
+[32.226985] (-) TimerEvent: {}
+[32.327800] (-) TimerEvent: {}
+[32.428446] (-) TimerEvent: {}
+[32.529056] (-) TimerEvent: {}
+[32.629738] (-) TimerEvent: {}
+[32.730353] (-) TimerEvent: {}
+[32.831033] (-) TimerEvent: {}
+[32.931788] (-) TimerEvent: {}
+[33.032533] (-) TimerEvent: {}
+[33.133201] (-) TimerEvent: {}
+[33.233895] (-) TimerEvent: {}
+[33.334587] (-) TimerEvent: {}
+[33.435277] (-) TimerEvent: {}
+[33.535967] (-) TimerEvent: {}
+[33.636714] (-) TimerEvent: {}
+[33.737416] (-) TimerEvent: {}
+[33.838122] (-) TimerEvent: {}
+[33.938820] (-) TimerEvent: {}
+[34.039483] (-) TimerEvent: {}
+[34.140103] (-) TimerEvent: {}
+[34.240757] (-) TimerEvent: {}
+[34.341390] (-) TimerEvent: {}
+[34.442009] (-) TimerEvent: {}
+[34.542766] (-) TimerEvent: {}
+[34.643408] (-) TimerEvent: {}
+[34.744098] (-) TimerEvent: {}
+[34.844813] (-) TimerEvent: {}
+[34.945466] (-) TimerEvent: {}
+[35.046144] (-) TimerEvent: {}
+[35.146823] (-) TimerEvent: {}
+[35.247510] (-) TimerEvent: {}
+[35.348341] (-) TimerEvent: {}
+[35.449149] (-) TimerEvent: {}
+[35.549831] (-) TimerEvent: {}
+[35.650514] (-) TimerEvent: {}
+[35.751177] (-) TimerEvent: {}
+[35.851851] (-) TimerEvent: {}
+[35.952487] (-) TimerEvent: {}
+[36.053196] (-) TimerEvent: {}
+[36.154051] (-) TimerEvent: {}
+[36.254890] (-) TimerEvent: {}
+[36.355730] (-) TimerEvent: {}
+[36.456583] (-) TimerEvent: {}
+[36.557372] (-) TimerEvent: {}
+[36.658259] (-) TimerEvent: {}
+[36.759067] (-) TimerEvent: {}
+[36.859890] (-) TimerEvent: {}
+[36.960749] (-) TimerEvent: {}
+[37.061633] (-) TimerEvent: {}
+[37.162325] (-) TimerEvent: {}
+[37.263175] (-) TimerEvent: {}
+[37.363851] (-) TimerEvent: {}
+[37.421235] (motor_uart_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor_uart_node\x1b[0m\n'}
+[37.464046] (-) TimerEvent: {}
+[37.564755] (-) TimerEvent: {}
+[37.665401] (-) TimerEvent: {}
+[37.766061] (-) TimerEvent: {}
+[37.866962] (-) TimerEvent: {}
+[37.967632] (-) TimerEvent: {}
+[38.068564] (-) TimerEvent: {}
+[38.169304] (-) TimerEvent: {}
+[38.270162] (-) TimerEvent: {}
+[38.370846] (-) TimerEvent: {}
+[38.471492] (-) TimerEvent: {}
+[38.572155] (-) TimerEvent: {}
+[38.672852] (-) TimerEvent: {}
+[38.773503] (-) TimerEvent: {}
+[38.874161] (-) TimerEvent: {}
+[38.974809] (-) TimerEvent: {}
+[39.075452] (-) TimerEvent: {}
+[39.169950] (motor_uart_pkg) StdoutLine: {'line': b'[100%] Built target motor_uart_node\n'}
+[39.175603] (-) TimerEvent: {}
+[39.215305] (motor_uart_pkg) CommandEnded: {'returncode': 0}
+[39.220491] (motor_uart_pkg) JobProgress: {'identifier': 'motor_uart_pkg', 'progress': 'install'}
+[39.223774] (motor_uart_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rofida/RPOD_ws/build/motor_uart_pkg'], 'cwd': '/home/rofida/RPOD_ws/build/motor_uart_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/motor_uart_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[39.254429] (motor_uart_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.257158] (motor_uart_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[39.259250] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/lib/motor_uart_pkg/motor_uart_node\n'}
+[39.260172] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/package_run_dependencies/motor_uart_pkg\n'}
+[39.262172] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/parent_prefix_path/motor_uart_pkg\n'}
+[39.263500] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/ament_prefix_path.sh\n'}
+[39.264257] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/ament_prefix_path.dsv\n'}
+[39.265359] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/path.sh\n'}
+[39.266100] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/path.dsv\n'}
+[39.267270] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.bash\n'}
+[39.268719] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.sh\n'}
+[39.270142] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.zsh\n'}
+[39.270977] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.dsv\n'}
+[39.271701] (motor_uart_pkg) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/package.dsv\n'}
+[39.275779] (-) TimerEvent: {}
+[39.308839] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/packages/motor_uart_pkg\n'}
+[39.310410] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/cmake/motor_uart_pkgConfig.cmake\n'}
+[39.311650] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/cmake/motor_uart_pkgConfig-version.cmake\n'}
+[39.312486] (motor_uart_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/package.xml\n'}
+[39.321290] (motor_uart_pkg) CommandEnded: {'returncode': 0}
+[39.373286] (motor_uart_pkg) JobEnded: {'identifier': 'motor_uart_pkg', 'rc': 0}
+[39.375979] (-) TimerEvent: {}
+[39.476536] (-) TimerEvent: {}
+[39.577198] (-) TimerEvent: {}
+[39.677864] (-) TimerEvent: {}
+[39.778486] (-) TimerEvent: {}
+[39.879145] (-) TimerEvent: {}
+[39.979833] (-) TimerEvent: {}
+[40.080457] (-) TimerEvent: {}
+[40.181225] (-) TimerEvent: {}
+[40.281864] (-) TimerEvent: {}
+[40.382552] (-) TimerEvent: {}
+[40.483239] (-) TimerEvent: {}
+[40.583907] (-) TimerEvent: {}
+[40.684637] (-) TimerEvent: {}
+[40.785320] (-) TimerEvent: {}
+[40.885955] (-) TimerEvent: {}
+[40.986626] (-) TimerEvent: {}
+[41.087281] (-) TimerEvent: {}
+[41.187942] (-) TimerEvent: {}
+[41.288558] (-) TimerEvent: {}
+[41.389195] (-) TimerEvent: {}
+[41.489882] (-) TimerEvent: {}
+[41.590497] (-) TimerEvent: {}
+[41.691253] (-) TimerEvent: {}
+[41.791907] (-) TimerEvent: {}
+[41.892618] (-) TimerEvent: {}
+[41.993268] (-) TimerEvent: {}
+[42.093980] (-) TimerEvent: {}
+[42.194653] (-) TimerEvent: {}
+[42.295317] (-) TimerEvent: {}
+[42.396051] (-) TimerEvent: {}
+[42.496854] (-) TimerEvent: {}
+[42.597511] (-) TimerEvent: {}
+[42.698101] (-) TimerEvent: {}
+[42.798763] (-) TimerEvent: {}
+[42.899407] (-) TimerEvent: {}
+[43.000110] (-) TimerEvent: {}
+[43.100815] (-) TimerEvent: {}
+[43.201399] (-) TimerEvent: {}
+[43.302066] (-) TimerEvent: {}
+[43.402752] (-) TimerEvent: {}
+[43.503409] (-) TimerEvent: {}
+[43.604069] (-) TimerEvent: {}
+[43.704754] (-) TimerEvent: {}
+[43.805397] (-) TimerEvent: {}
+[43.906051] (-) TimerEvent: {}
+[44.006743] (-) TimerEvent: {}
+[44.107398] (-) TimerEvent: {}
+[44.208046] (-) TimerEvent: {}
+[44.308874] (-) TimerEvent: {}
+[44.409521] (-) TimerEvent: {}
+[44.510154] (-) TimerEvent: {}
+[44.610826] (-) TimerEvent: {}
+[44.711653] (-) TimerEvent: {}
+[44.812432] (-) TimerEvent: {}
+[44.913184] (-) TimerEvent: {}
+[45.013961] (-) TimerEvent: {}
+[45.114807] (-) TimerEvent: {}
+[45.215503] (-) TimerEvent: {}
+[45.316162] (-) TimerEvent: {}
+[45.416821] (-) TimerEvent: {}
+[45.517459] (-) TimerEvent: {}
+[45.618115] (-) TimerEvent: {}
+[45.718928] (-) TimerEvent: {}
+[45.819747] (-) TimerEvent: {}
+[45.920562] (-) TimerEvent: {}
+[46.021371] (-) TimerEvent: {}
+[46.122163] (-) TimerEvent: {}
+[46.222990] (-) TimerEvent: {}
+[46.323826] (-) TimerEvent: {}
+[46.424634] (-) TimerEvent: {}
+[46.525440] (-) TimerEvent: {}
+[46.626239] (-) TimerEvent: {}
+[46.727050] (-) TimerEvent: {}
+[46.827848] (-) TimerEvent: {}
+[46.928624] (-) TimerEvent: {}
+[47.029361] (-) TimerEvent: {}
+[47.130113] (-) TimerEvent: {}
+[47.230980] (-) TimerEvent: {}
+[47.331833] (-) TimerEvent: {}
+[47.432598] (-) TimerEvent: {}
+[47.533367] (-) TimerEvent: {}
+[47.634313] (-) TimerEvent: {}
+[47.735107] (-) TimerEvent: {}
+[47.768304] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpc_controller_node\x1b[0m\n'}
+[47.835335] (-) TimerEvent: {}
+[47.935996] (-) TimerEvent: {}
+[48.036691] (-) TimerEvent: {}
+[48.137362] (-) TimerEvent: {}
+[48.238029] (-) TimerEvent: {}
+[48.338783] (-) TimerEvent: {}
+[48.439474] (-) TimerEvent: {}
+[48.540145] (-) TimerEvent: {}
+[48.640834] (-) TimerEvent: {}
+[48.741522] (-) TimerEvent: {}
+[48.842199] (-) TimerEvent: {}
+[48.942887] (-) TimerEvent: {}
+[49.043583] (-) TimerEvent: {}
+[49.144270] (-) TimerEvent: {}
+[49.244943] (-) TimerEvent: {}
+[49.345561] (-) TimerEvent: {}
+[49.446287] (-) TimerEvent: {}
+[49.547009] (-) TimerEvent: {}
+[49.647684] (-) TimerEvent: {}
+[49.748363] (-) TimerEvent: {}
+[49.849046] (-) TimerEvent: {}
+[49.949749] (-) TimerEvent: {}
+[50.050399] (-) TimerEvent: {}
+[50.151075] (-) TimerEvent: {}
+[50.175067] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'[100%] Built target mpc_controller_node\n'}
+[50.218868] (modelv2_mpc_limited_ros2) CommandEnded: {'returncode': 0}
+[50.222917] (modelv2_mpc_limited_ros2) JobProgress: {'identifier': 'modelv2_mpc_limited_ros2', 'progress': 'install'}
+[50.225802] (modelv2_mpc_limited_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rofida/RPOD_ws/build/modelv2_mpc_limited_ros2'], 'cwd': '/home/rofida/RPOD_ws/build/modelv2_mpc_limited_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/modelv2_mpc_limited_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[50.251330] (-) TimerEvent: {}
+[50.255931] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[50.258676] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[50.261467] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/lib/modelv2_mpc_limited_ros2/mpc_controller_node\n'}
+[50.264034] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/launch/mpc_controller.launch.py\n'}
+[50.264977] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/ament_index/resource_index/package_run_dependencies/modelv2_mpc_limited_ros2\n'}
+[50.266881] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/ament_index/resource_index/parent_prefix_path/modelv2_mpc_limited_ros2\n'}
+[50.268101] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/environment/ament_prefix_path.sh\n'}
+[50.268931] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/environment/ament_prefix_path.dsv\n'}
+[50.270116] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/environment/path.sh\n'}
+[50.270949] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/environment/path.dsv\n'}
+[50.272119] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/local_setup.bash\n'}
+[50.273669] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/local_setup.sh\n'}
+[50.274794] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/local_setup.zsh\n'}
+[50.275501] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/local_setup.dsv\n'}
+[50.276098] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/package.dsv\n'}
+[50.312721] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/ament_index/resource_index/packages/modelv2_mpc_limited_ros2\n'}
+[50.313906] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/cmake/modelv2_mpc_limited_ros2Config.cmake\n'}
+[50.314610] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/cmake/modelv2_mpc_limited_ros2Config-version.cmake\n'}
+[50.315546] (modelv2_mpc_limited_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2/share/modelv2_mpc_limited_ros2/package.xml\n'}
+[50.323860] (modelv2_mpc_limited_ros2) CommandEnded: {'returncode': 0}
+[50.352261] (-) TimerEvent: {}
+[50.378335] (modelv2_mpc_limited_ros2) JobEnded: {'identifier': 'modelv2_mpc_limited_ros2', 'rc': 0}
+[50.452438] (-) TimerEvent: {}
+[50.553077] (-) TimerEvent: {}
+[50.628362] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpc_controller_node\x1b[0m\n'}
+[50.653294] (-) TimerEvent: {}
+[50.753915] (-) TimerEvent: {}
+[50.854570] (-) TimerEvent: {}
+[50.955242] (-) TimerEvent: {}
+[51.055878] (-) TimerEvent: {}
+[51.156557] (-) TimerEvent: {}
+[51.257232] (-) TimerEvent: {}
+[51.357864] (-) TimerEvent: {}
+[51.458525] (-) TimerEvent: {}
+[51.559161] (-) TimerEvent: {}
+[51.659843] (-) TimerEvent: {}
+[51.760526] (-) TimerEvent: {}
+[51.861147] (-) TimerEvent: {}
+[51.961751] (-) TimerEvent: {}
+[52.062382] (-) TimerEvent: {}
+[52.163011] (-) TimerEvent: {}
+[52.263659] (-) TimerEvent: {}
+[52.364296] (-) TimerEvent: {}
+[52.464914] (-) TimerEvent: {}
+[52.565581] (-) TimerEvent: {}
+[52.666238] (-) TimerEvent: {}
+[52.766854] (-) TimerEvent: {}
+[52.867411] (-) TimerEvent: {}
+[52.968170] (-) TimerEvent: {}
+[52.973337] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'[100%] Built target mpc_controller_node\n'}
+[53.017610] (statespace_chaser_mpc_ros2) CommandEnded: {'returncode': 0}
+[53.020733] (statespace_chaser_mpc_ros2) JobProgress: {'identifier': 'statespace_chaser_mpc_ros2', 'progress': 'install'}
+[53.023610] (statespace_chaser_mpc_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2'], 'cwd': '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rofida'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rofida'), ('OLDPWD', '/home/rofida'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1835'), ('SYSTEMD_EXEC_PID', '2274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14323'), ('COLCON_PREFIX_PATH', '/home/rofida/RPOD_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rofida'), ('JOURNAL_STREAM', '8:20508'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rofida'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rofida-Precision-7530:@/tmp/.ICE-unix/2246,unix/rofida-Precision-7530:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '10aedea51c9943259251d4aee4dfcb2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:eac52f78-8c63-4f93-ae98-4fe6a8e361fc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble')]), 'shell': False}
+[53.056114] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[53.058991] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[53.061725] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/lib/statespace_chaser_mpc_ros2/mpc_controller_node\n'}
+[53.064917] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/launch/mpc_controller.launch.py\n'}
+[53.066296] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/ament_index/resource_index/package_run_dependencies/statespace_chaser_mpc_ros2\n'}
+[53.068359] (-) TimerEvent: {}
+[53.068931] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/ament_index/resource_index/parent_prefix_path/statespace_chaser_mpc_ros2\n'}
+[53.070262] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/environment/ament_prefix_path.sh\n'}
+[53.071452] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/environment/ament_prefix_path.dsv\n'}
+[53.073112] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/environment/path.sh\n'}
+[53.074312] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/environment/path.dsv\n'}
+[53.075802] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/local_setup.bash\n'}
+[53.077084] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/local_setup.sh\n'}
+[53.078233] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/local_setup.zsh\n'}
+[53.079151] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/local_setup.dsv\n'}
+[53.079788] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/package.dsv\n'}
+[53.116559] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/ament_index/resource_index/packages/statespace_chaser_mpc_ros2\n'}
+[53.118138] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/cmake/statespace_chaser_mpc_ros2Config.cmake\n'}
+[53.119226] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/cmake/statespace_chaser_mpc_ros2Config-version.cmake\n'}
+[53.120382] (statespace_chaser_mpc_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2/share/statespace_chaser_mpc_ros2/package.xml\n'}
+[53.128641] (statespace_chaser_mpc_ros2) CommandEnded: {'returncode': 0}
+[53.168557] (-) TimerEvent: {}
+[53.176830] (statespace_chaser_mpc_ros2) JobEnded: {'identifier': 'statespace_chaser_mpc_ros2', 'rc': 0}
+[53.179237] (-) EventReactorShutdown: {}

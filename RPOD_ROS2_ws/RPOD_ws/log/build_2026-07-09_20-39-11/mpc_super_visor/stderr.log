@@ -1,0 +1,21 @@
+[01m[K/home/rofida/RPOD_ws/src/mpc_super_visor/src/mpc_super_visor_node.cpp:90:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K][m[K’ token
+   90 | const std::vector[rclcpp::Parameter[01;31m[K][m[K(rclcpp::Parameter) & parameters)
+      |                                    [01;31m[K^[m[K
+[01m[K/home/rofida/RPOD_ws/src/mpc_super_visor/src/mpc_super_visor_node.cpp:90:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kparameters[m[K’
+   90 | const std::vector[rclcpp::Parameter](rclcpp::Parameter) & [01;31m[Kparameters[m[K)
+      |                                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rofida/RPOD_ws/src/mpc_super_visor/src/mpc_super_visor_node.cpp:[m[K In constructor ‘[01m[KMpcSupervisorNode::MpcSupervisorNode()[m[K’:
+[01m[K/home/rofida/RPOD_ws/src/mpc_super_visor/src/mpc_super_visor_node.cpp:18:30:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K][m[K’ token
+   18 | declare_parameter[std::string[01;31m[K][m[K(std::string)("active_mpc", "static");
+      |                              [01;31m[K^[m[K
+[01m[K/home/rofida/RPOD_ws/src/mpc_super_visor/src/mpc_super_visor_node.cpp:18:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   18 | declare_parameter[std::string](std::string[01;31m[K)[m[K("active_mpc", "static");
+      |                                           [01;31m[K^[m[K
+[01m[K/home/rofida/RPOD_ws/src/mpc_super_visor/src/mpc_super_visor_node.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult MpcSupervisorNode::parameterCallback(...)[m[K’:
+[01m[K/home/rofida/RPOD_ws/src/mpc_super_visor/src/mpc_super_visor_node.cpp:95:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameters[m[K’ was not declared in this scope; did you mean ‘[01m[Kparameter[m[K’?
+   95 | for (const auto & parameter : [01;31m[Kparameters[m[K) {
+      |                               [01;31m[K^~~~~~~~~~[m[K
+      |                               [32m[Kparameter[m[K
+gmake[2]: *** [CMakeFiles/mpc_super_visor_node.dir/build.make:76: CMakeFiles/mpc_super_visor_node.dir/src/mpc_super_visor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpc_super_visor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

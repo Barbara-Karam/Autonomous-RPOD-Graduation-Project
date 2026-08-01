@@ -1,0 +1,1 @@
+/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2/ament_cmake_environment_hooks/local_setup.zsh

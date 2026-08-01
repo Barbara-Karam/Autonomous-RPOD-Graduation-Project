@@ -1,0 +1,8 @@
+../Core/Src/control_loop.c:9:6:ControlLoop_Init	16	static
+../Core/Src/control_loop.c:26:6:ControlLoop_Run	24	static
+../Core/Src/control_loop.c:87:9:ControlLoop_GetSnapshot	40	static,ignoring_inline_asm
+../Core/Src/control_loop.c:106:6:ControlLoop_SetTarget	32	static,ignoring_inline_asm
+../Core/Src/control_loop.c:137:6:ControlLoop_SetAllTargets	24	static
+../Core/Src/control_loop.c:144:6:ControlLoop_Enable	16	static
+../Core/Src/control_loop.c:153:6:ControlLoop_Disable	8	static
+../Core/Src/control_loop.c:167:9:ControlLoop_SetGains	40	static,ignoring_inline_asm

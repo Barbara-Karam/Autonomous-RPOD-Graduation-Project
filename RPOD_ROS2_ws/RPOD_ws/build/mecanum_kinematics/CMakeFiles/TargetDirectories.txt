@@ -1,0 +1,10 @@
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/uninstall.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/mecanum_kinematics_uninstall.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/mecanum_kinematics.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/test.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/edit_cache.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/rebuild_cache.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/list_install_components.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/install.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/install/local.dir
+/home/rofida/RPOD_ws/build/mecanum_kinematics/CMakeFiles/install/strip.dir

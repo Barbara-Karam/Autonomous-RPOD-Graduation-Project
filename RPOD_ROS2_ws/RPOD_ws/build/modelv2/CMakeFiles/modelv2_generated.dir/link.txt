@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmodelv2_generated.a CMakeFiles/modelv2_generated.dir/modelv2_generated/modelv2.c.o CMakeFiles/modelv2_generated.dir/modelv2_generated/modelv2_data.c.o
+/usr/bin/ranlib libmodelv2_generated.a

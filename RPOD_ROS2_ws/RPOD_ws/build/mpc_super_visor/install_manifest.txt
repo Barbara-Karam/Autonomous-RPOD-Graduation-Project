@@ -1,0 +1,16 @@
+/home/rofida/RPOD_ws/install/mpc_super_visor/lib/mpc_super_visor/mpc_super_visor_node
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/package_run_dependencies/mpc_super_visor
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/parent_prefix_path/mpc_super_visor
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/ament_prefix_path.sh
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/ament_prefix_path.dsv
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/path.sh
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/path.dsv
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.bash
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.sh
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.zsh
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.dsv
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/package.dsv
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/packages/mpc_super_visor
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/cmake/mpc_super_visorConfig.cmake
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/cmake/mpc_super_visorConfig-version.cmake
+/home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/package.xml

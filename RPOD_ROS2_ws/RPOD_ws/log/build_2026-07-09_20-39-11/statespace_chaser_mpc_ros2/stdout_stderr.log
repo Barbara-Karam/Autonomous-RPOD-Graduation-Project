@@ -1,0 +1,5 @@
+[ 60%] Built target statespace_chaser_gen
+[35m[1mConsolidate compiler generated dependencies of target mpc_controller_node[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mpc_controller_node.dir/src/mpc_controller_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mpc_controller_node[0m
+[100%] Built target mpc_controller_node

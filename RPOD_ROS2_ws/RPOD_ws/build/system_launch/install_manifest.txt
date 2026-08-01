@@ -1,0 +1,16 @@
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/launch/rpod_system.launch.py
+/home/rofida/RPOD_ws/install/system_launch/share/ament_index/resource_index/package_run_dependencies/system_launch
+/home/rofida/RPOD_ws/install/system_launch/share/ament_index/resource_index/parent_prefix_path/system_launch
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/environment/ament_prefix_path.sh
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/environment/ament_prefix_path.dsv
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/environment/path.sh
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/environment/path.dsv
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/local_setup.bash
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/local_setup.sh
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/local_setup.zsh
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/local_setup.dsv
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/package.dsv
+/home/rofida/RPOD_ws/install/system_launch/share/ament_index/resource_index/packages/system_launch
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/cmake/system_launchConfig.cmake
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/cmake/system_launchConfig-version.cmake
+/home/rofida/RPOD_ws/install/system_launch/share/system_launch/package.xml

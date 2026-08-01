@@ -1,0 +1,1 @@
+Invoking command in '/home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/statespace_chaser_mpc_ros2 -- -j12 -l12

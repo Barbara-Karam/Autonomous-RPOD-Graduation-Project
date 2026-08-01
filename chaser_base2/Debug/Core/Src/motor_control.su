@@ -1,0 +1,9 @@
+../Core/Src/motor_control.c:13:6:Motor_Init	8	static
+../Core/Src/motor_control.c:37:6:Motor_Set	24	static
+../Core/Src/motor_control.c:137:6:Motor_SetAll	24	static
+../Core/Src/motor_control.c:142:6:Motor_Brake	16	static
+../Core/Src/motor_control.c:143:6:Motor_BrakeAll	8	static
+../Core/Src/motor_control.c:145:6:Motor_Coast	16	static
+../Core/Src/motor_control.c:177:6:Motor_CoastAll	16	static
+../Core/Src/motor_control.c:182:6:Motor_EmergencyStop	8	static
+../Core/Src/motor_control.c:187:14:Motor_GetState	24	static

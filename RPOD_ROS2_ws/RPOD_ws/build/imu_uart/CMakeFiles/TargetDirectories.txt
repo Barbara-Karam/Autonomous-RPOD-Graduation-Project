@@ -1,0 +1,10 @@
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/uninstall.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/imu_uart_uninstall.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/imu_uart.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/test.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/edit_cache.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/rebuild_cache.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/list_install_components.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/install.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/install/local.dir
+/home/rofida/RPOD_ws/build/imu_uart/CMakeFiles/install/strip.dir

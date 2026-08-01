@@ -1,0 +1,4 @@
+../Core/Src/pid.c:4:6:PID_Init	32	static
+../Core/Src/pid.c:15:7:PID_Update	56	static
+../Core/Src/pid.c:91:6:PID_Reset	16	static
+../Core/Src/pid.c:98:6:PID_SetGains	24	static

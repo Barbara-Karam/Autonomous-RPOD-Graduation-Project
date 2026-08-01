@@ -1,0 +1,24 @@
+[0.122s] Invoking command in '/home/rofida/RPOD_ws/build/motor_uart_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/motor_uart_pkg -- -j12 -l12
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target motor_uart_node[0m
+[0.471s] [100%] Built target motor_uart_node
+[0.584s] Invoked command in '/home/rofida/RPOD_ws/build/motor_uart_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/motor_uart_pkg -- -j12 -l12
+[0.594s] Invoking command in '/home/rofida/RPOD_ws/build/motor_uart_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/motor_uart_pkg
+[0.633s] -- Install configuration: ""
+[0.636s] -- Execute custom install script
+[0.638s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/lib/motor_uart_pkg/motor_uart_node
+[0.640s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/package_run_dependencies/motor_uart_pkg
+[0.641s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/parent_prefix_path/motor_uart_pkg
+[0.643s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/ament_prefix_path.sh
+[0.644s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/ament_prefix_path.dsv
+[0.645s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/path.sh
+[0.646s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/path.dsv
+[0.648s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.bash
+[0.649s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.sh
+[0.652s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.zsh
+[0.653s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.dsv
+[0.654s] -- Symlinking: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/package.dsv
+[0.697s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/packages/motor_uart_pkg
+[0.699s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/cmake/motor_uart_pkgConfig.cmake
+[0.700s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/cmake/motor_uart_pkgConfig-version.cmake
+[0.701s] -- Up-to-date symlink: /home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/package.xml
+[0.853s] Invoked command in '/home/rofida/RPOD_ws/build/motor_uart_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/motor_uart_pkg

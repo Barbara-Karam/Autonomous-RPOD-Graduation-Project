@@ -1,0 +1,4 @@
+source;share/gnc_node/local_setup.bash
+source;share/gnc_node/local_setup.dsv
+source;share/gnc_node/local_setup.sh
+source;share/gnc_node/local_setup.zsh

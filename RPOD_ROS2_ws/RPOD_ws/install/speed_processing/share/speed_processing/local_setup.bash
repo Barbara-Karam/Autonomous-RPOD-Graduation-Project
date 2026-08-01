@@ -1,0 +1,1 @@
+/home/rofida/RPOD_ws/build/speed_processing/ament_cmake_environment_hooks/local_setup.bash

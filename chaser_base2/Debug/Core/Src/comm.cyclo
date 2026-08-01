@@ -1,0 +1,9 @@
+../Core/Src/comm.c:17:16:crc8	4
+../Core/Src/comm.c:30:13:uart_tx	3
+../Core/Src/comm.c:39:6:HAL_UART_TxCpltCallback	2
+../Core/Src/comm.c:44:6:Comm_Init	1
+../Core/Src/comm.c:51:13:Comm_ParseFrame	15
+../Core/Src/comm.c:152:6:HAL_UARTEx_RxEventCallback	3
+../Core/Src/comm.c:168:6:Comm_ProcessRx	1
+../Core/Src/comm.c:171:6:Comm_TransmitFeedback	6
+../Core/Src/comm.c:206:6:HAL_UART_ErrorCallback	2

@@ -1,0 +1,1 @@
+/home/rofida/RPOD_ws/build/modelv2_mpc_ros2/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,16 @@
+/home/rofida/RPOD_ws/install/motor_uart_pkg/lib/motor_uart_pkg/motor_uart_node
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/package_run_dependencies/motor_uart_pkg
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/parent_prefix_path/motor_uart_pkg
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/ament_prefix_path.sh
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/ament_prefix_path.dsv
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/path.sh
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/environment/path.dsv
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.bash
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.sh
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.zsh
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/local_setup.dsv
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/package.dsv
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/ament_index/resource_index/packages/motor_uart_pkg
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/cmake/motor_uart_pkgConfig.cmake
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/cmake/motor_uart_pkgConfig-version.cmake
+/home/rofida/RPOD_ws/install/motor_uart_pkg/share/motor_uart_pkg/package.xml

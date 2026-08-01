@@ -1,0 +1,1 @@
+/home/rofida/RPOD_ws/build/motor_uart_pkg/ament_cmake_core/motor_uart_pkgConfig-version.cmake

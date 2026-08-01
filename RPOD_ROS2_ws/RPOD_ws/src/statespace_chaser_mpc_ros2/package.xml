@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>statespace_chaser_mpc_ros2</name>
+  <version>0.1.0</version>
+  <description>
+    ROS 2 wrapper around the Embedded Coder-generated Adaptive MPC
+    controller (statespace_chaser_test0x2810x29) for rendezvous with a
+    TUMBLING target. Feeds a live CV-measured relative pose and tumble
+    angle into the generated controller each cycle and publishes the
+    resulting 4 motor angular-velocity commands.
+  </description>
+  <maintainer email="you@example.com">gnc-team</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_geometry_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

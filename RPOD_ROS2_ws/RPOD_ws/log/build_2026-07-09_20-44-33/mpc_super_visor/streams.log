@@ -1,0 +1,26 @@
+[0.114s] Invoking command in '/home/rofida/RPOD_ws/build/mpc_super_visor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/mpc_super_visor -- -j12 -l12
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target mpc_super_visor_node[0m
+[0.380s] [ 50%] [32mBuilding CXX object CMakeFiles/mpc_super_visor_node.dir/src/mpc_super_visor_node.cpp.o[0m
+[35.927s] [100%] [32m[1mLinking CXX executable mpc_super_visor_node[0m
+[37.605s] [100%] Built target mpc_super_visor_node
+[37.649s] Invoked command in '/home/rofida/RPOD_ws/build/mpc_super_visor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/mpc_super_visor -- -j12 -l12
+[37.653s] Invoking command in '/home/rofida/RPOD_ws/build/mpc_super_visor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/mpc_super_visor
+[37.688s] -- Install configuration: ""
+[37.689s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/lib/mpc_super_visor/mpc_super_visor_node
+[37.706s] -- Set runtime path of "/home/rofida/RPOD_ws/install/mpc_super_visor/lib/mpc_super_visor/mpc_super_visor_node" to ""
+[37.706s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/package_run_dependencies/mpc_super_visor
+[37.707s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/parent_prefix_path/mpc_super_visor
+[37.708s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/ament_prefix_path.sh
+[37.708s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/ament_prefix_path.dsv
+[37.709s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/path.sh
+[37.710s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/environment/path.dsv
+[37.710s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.bash
+[37.711s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.sh
+[37.712s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.zsh
+[37.712s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/local_setup.dsv
+[37.713s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/package.dsv
+[37.713s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/ament_index/resource_index/packages/mpc_super_visor
+[37.714s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/cmake/mpc_super_visorConfig.cmake
+[37.715s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/cmake/mpc_super_visorConfig-version.cmake
+[37.716s] -- Installing: /home/rofida/RPOD_ws/install/mpc_super_visor/share/mpc_super_visor/package.xml
+[37.724s] Invoked command in '/home/rofida/RPOD_ws/build/mpc_super_visor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/mpc_super_visor

@@ -1,0 +1,10 @@
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/uninstall.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/encoder_uart_uninstall.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/encoder_uart.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/test.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/edit_cache.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/rebuild_cache.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/list_install_components.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/install.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/install/local.dir
+/home/rofida/RPOD_ws/build/encoder_uart/CMakeFiles/install/strip.dir

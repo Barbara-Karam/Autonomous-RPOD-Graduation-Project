@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd"
+             schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
+  <name>system_launch</name>
+  <version>0.0.1</version>
+
+  <description>
+    Launch package for the RPOD chaser ROS2 system, including static MPC,
+    tumbling MPC, MPC supervisor, and speed-processing nodes.
+  </description>
+
+  <maintainer email="your_email@example.com">Rofida</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <exec_depend>modelv2_mpc_ros2</exec_depend>
+  <exec_depend>statespace_chaser_mpc_ros2</exec_depend>
+  <exec_depend>mpc_super_visor</exec_depend>
+  <exec_depend>speed_processing</exec_depend>
+  <exec_depend>motor_uart_package</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

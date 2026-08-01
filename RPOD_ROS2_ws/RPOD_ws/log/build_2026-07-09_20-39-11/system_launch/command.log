@@ -1,0 +1,6 @@
+Invoking command in '/home/rofida/RPOD_ws/build/system_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rofida/RPOD_ws/src/system_launch -DCMAKE_INSTALL_PREFIX=/home/rofida/RPOD_ws/install/system_launch
+Invoked command in '/home/rofida/RPOD_ws/build/system_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rofida/RPOD_ws/src/system_launch -DCMAKE_INSTALL_PREFIX=/home/rofida/RPOD_ws/install/system_launch
+Invoking command in '/home/rofida/RPOD_ws/build/system_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/system_launch -- -j12 -l12
+Invoked command in '/home/rofida/RPOD_ws/build/system_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/system_launch -- -j12 -l12
+Invoking command in '/home/rofida/RPOD_ws/build/system_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/system_launch
+Invoked command in '/home/rofida/RPOD_ws/build/system_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/system_launch

@@ -1,0 +1,26 @@
+[0.056s] Invoking command in '/home/rofida/RPOD_ws/build/system_launch': CMAKE_PREFIX_PATH=/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/mpc_super_visor:/home/rofida/RPOD_ws/install/system_launch:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/system_launch -- -j12 -l12
+[0.146s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.962s] -- Configuring done
+[0.974s] -- Generating done
+[0.983s] -- Build files have been written to: /home/rofida/RPOD_ws/build/system_launch
+[1.066s] Invoked command in '/home/rofida/RPOD_ws/build/system_launch' returned '0': CMAKE_PREFIX_PATH=/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/mpc_super_visor:/home/rofida/RPOD_ws/install/system_launch:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble /usr/bin/cmake --build /home/rofida/RPOD_ws/build/system_launch -- -j12 -l12
+[1.107s] Invoking command in '/home/rofida/RPOD_ws/build/system_launch': CMAKE_PREFIX_PATH=/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/mpc_super_visor:/home/rofida/RPOD_ws/install/system_launch:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/system_launch
+[1.137s] -- Install configuration: ""
+[1.138s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/launch
+[1.139s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/launch/rpod_system.launch.py
+[1.139s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/ament_index/resource_index/package_run_dependencies/system_launch
+[1.140s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/ament_index/resource_index/parent_prefix_path/system_launch
+[1.141s] -- Up-to-date: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/environment/ament_prefix_path.sh
+[1.141s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/environment/ament_prefix_path.dsv
+[1.142s] -- Up-to-date: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/environment/path.sh
+[1.142s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/environment/path.dsv
+[1.143s] -- Up-to-date: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/local_setup.bash
+[1.144s] -- Up-to-date: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/local_setup.sh
+[1.144s] -- Up-to-date: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/local_setup.zsh
+[1.145s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/local_setup.dsv
+[1.145s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/package.dsv
+[1.147s] -- Up-to-date: /home/rofida/RPOD_ws/install/system_launch/share/ament_index/resource_index/packages/system_launch
+[1.147s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/cmake/system_launchConfig.cmake
+[1.148s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/cmake/system_launchConfig-version.cmake
+[1.148s] -- Installing: /home/rofida/RPOD_ws/install/system_launch/share/system_launch/package.xml
+[1.159s] Invoked command in '/home/rofida/RPOD_ws/build/system_launch' returned '0': CMAKE_PREFIX_PATH=/home/rofida/RPOD_ws/install/statespace_chaser_mpc_ros2:/home/rofida/RPOD_ws/install/speed_processing:/home/rofida/RPOD_ws/install/mpc_super_visor:/home/rofida/RPOD_ws/install/system_launch:/home/rofida/RPOD_ws/install/motor_uart_pkg:/home/rofida/RPOD_ws/install/modelv2_mpc_ros2:/home/rofida/RPOD_ws/install/modelv2_mpc_limited_ros2:/home/rofida/RPOD_ws/install/modelv2:/opt/ros/humble /usr/bin/cmake --install /home/rofida/RPOD_ws/build/system_launch

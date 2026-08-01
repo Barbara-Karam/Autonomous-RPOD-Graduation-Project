@@ -19,7 +19,7 @@ Real orbital RPOD missions rely on distributed, expensive, power-rich avionics. 
 - **Live PID tuning** over the same serial link, with firmware-side safety gates preventing gain changes while the robot is moving.
 - **Real-time ground telemetry dashboard** for the Target spacecraft, built on a WebSocket relay and live charting.
 
-## System Architecture
+## [System Architecture](https://drive.google.com/file/d/1i5ng6CL1H7LBbY_pDOo0vnm8feHESqVQ/view?usp=sharing))
 
 The platform is split into two independent vehicles with very different computational demands.
 
